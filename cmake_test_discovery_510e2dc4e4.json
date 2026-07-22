@@ -1,0 +1,102 @@
+{
+  "tests": 18,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "DllApiTest",
+      "tests": 18,
+      "testsuite": [
+        {
+          "name": "InitWithNoArgs_UsesDefaults",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 39
+        },
+        {
+          "name": "InitWithConfigFile",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 45
+        },
+        {
+          "name": "DoubleInitReturnsError",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 50
+        },
+        {
+          "name": "ShutdownWithoutInitIsSafe",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 58
+        },
+        {
+          "name": "ReinitAfterShutdown",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 65
+        },
+        {
+          "name": "RecognizeFile_NotInitialized",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 79
+        },
+        {
+          "name": "RecognizeFile_NullPath",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 86
+        },
+        {
+          "name": "RecognizeFile_NullOutput",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 94
+        },
+        {
+          "name": "RecognizeFile_FileNotFound",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 101
+        },
+        {
+          "name": "RecognizeMemory_NotInitialized",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 114
+        },
+        {
+          "name": "RecognizeMemory_NullData",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 121
+        },
+        {
+          "name": "RecognizeMemory_ZeroSize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 130
+        },
+        {
+          "name": "RecognizeMemory_NegativeSize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 140
+        },
+        {
+          "name": "FreeResult_NullIsSafe",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 154
+        },
+        {
+          "name": "GetVersion_AlwaysAvailable",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 163
+        },
+        {
+          "name": "GetLastError_BeforeInit",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 169
+        },
+        {
+          "name": "InitWithMissingConfigFile",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 179
+        },
+        {
+          "name": "RecognizeMemory_WithMockEngine_Succeeds",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 188
+        }
+      ]
+    }
+  ]
+}

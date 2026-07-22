@@ -1,0 +1,25 @@
+{
+  "ocr": {
+    "engine": "mock",
+    "model_directory": "./models",
+    "use_gpu": false,
+    "cpu_threads": 4,
+    "minimum_confidence": 0.65
+  },
+  "preprocessing": {
+    "enable_document_detection": true,
+    "enable_perspective_correction": true,
+    "enable_grayscale": false,
+    "enable_contrast_enhancement": true,
+    "enable_adaptive_threshold": false,
+    "minimum_width": 800,
+    "minimum_height": 800,
+    "blur_threshold": 80.0
+  },
+  "privacy": {
+    "mask_id_number": true,
+    "enable_debug_image_output": false,
+    "enable_raw_text_log": false
+  },
+  "templates_directory": "./config/templates"
+}

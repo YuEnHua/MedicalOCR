@@ -1,0 +1,656 @@
+{
+  "tests": 118,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ConcurrencyTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "TwoThreads_ConcurrentRecognize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_concurrency.cpp",
+          "line": 63
+        },
+        {
+          "name": "FourThreads_ConcurrentRecognize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_concurrency.cpp",
+          "line": 92
+        },
+        {
+          "name": "GetLastError_ThreadIsolated",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_concurrency.cpp",
+          "line": 127
+        },
+        {
+          "name": "RepeatedInitShutdown",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_concurrency.cpp",
+          "line": 153
+        },
+        {
+          "name": "FreeResultNull_MultiThreaded",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_concurrency.cpp",
+          "line": 168
+        },
+        {
+          "name": "MemoryStress_AllocAndFree",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_concurrency.cpp",
+          "line": 185
+        }
+      ]
+    },
+    {
+      "name": "AnchorFieldExtractorTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "FindAnchorBox_Found",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 33
+        },
+        {
+          "name": "FindAnchorBox_NotFound",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 42
+        },
+        {
+          "name": "FindRightBox_OnSameLine",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 50
+        },
+        {
+          "name": "FindRightBox_NotOnSameLine",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 60
+        },
+        {
+          "name": "FindRightBox_TooFar",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 69
+        },
+        {
+          "name": "FindBelowBox",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 78
+        },
+        {
+          "name": "Extract_AnchorRight",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 87
+        },
+        {
+          "name": "Extract_AnchorNotFound",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 105
+        },
+        {
+          "name": "IsInRegion_Inside",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 117
+        },
+        {
+          "name": "IsInRegion_Outside",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 122
+        }
+      ]
+    },
+    {
+      "name": "ParagraphExtractorTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ExtractBetween",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 131
+        },
+        {
+          "name": "ExtractBetween_NoEndAnchor",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 153
+        },
+        {
+          "name": "ExtractBetween_NoStartAnchor",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 168
+        }
+      ]
+    },
+    {
+      "name": "FieldExtractorTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ExtractAll_WithTemplate",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 185
+        },
+        {
+          "name": "ExtractAll_NoTemplate",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_extraction.cpp",
+          "line": 271
+        }
+      ]
+    },
+    {
+      "name": "FieldNormalizerTest",
+      "tests": 15,
+      "testsuite": [
+        {
+          "name": "Gender_ChineseMale",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 7
+        },
+        {
+          "name": "Gender_ChineseFemale",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 11
+        },
+        {
+          "name": "Gender_EnglishMale",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 15
+        },
+        {
+          "name": "Gender_EnglishFemale",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 21
+        },
+        {
+          "name": "Gender_Numeric",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 27
+        },
+        {
+          "name": "Gender_Empty",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 33
+        },
+        {
+          "name": "Gender_Unrecognized",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 37
+        },
+        {
+          "name": "Age_WithSuffix",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 41
+        },
+        {
+          "name": "Age_PlainNumber",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 47
+        },
+        {
+          "name": "Age_WithWhitespace",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 53
+        },
+        {
+          "name": "Age_OutOfRange",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 57
+        },
+        {
+          "name": "Age_NotANumber",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 62
+        },
+        {
+          "name": "Strip_Whitespace",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 67
+        },
+        {
+          "name": "Strip_TrailingColon",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 71
+        },
+        {
+          "name": "IsReasonableAge",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_field_normalizer.cpp",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "name": "DateValidatorTest",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "Normalize_ISO",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 7
+        },
+        {
+          "name": "Normalize_ChineseFormat",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 13
+        },
+        {
+          "name": "Normalize_ChineseFormatSingleDigit",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 19
+        },
+        {
+          "name": "Normalize_SlashFormat",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 25
+        },
+        {
+          "name": "Normalize_DotFormat",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 31
+        },
+        {
+          "name": "Normalize_EightDigits",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 37
+        },
+        {
+          "name": "Normalize_InvalidDate",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 43
+        },
+        {
+          "name": "Normalize_InvalidDateFeb30",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 48
+        },
+        {
+          "name": "Normalize_Empty",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 53
+        },
+        {
+          "name": "Normalize_Garbage",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 58
+        },
+        {
+          "name": "IsValidDate_LeapYear",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 63
+        },
+        {
+          "name": "IsValidDate_Basic",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 70
+        },
+        {
+          "name": "CalculateAge",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_date_validator.cpp",
+          "line": 79
+        }
+      ]
+    },
+    {
+      "name": "IdCardValidatorTest",
+      "tests": 16,
+      "testsuite": [
+        {
+          "name": "ValidIdNumber",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 7
+        },
+        {
+          "name": "ValidIdNumber_Female",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 16
+        },
+        {
+          "name": "InvalidChecksum",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 24
+        },
+        {
+          "name": "TooShort",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 31
+        },
+        {
+          "name": "TooLong",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 36
+        },
+        {
+          "name": "Empty",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 41
+        },
+        {
+          "name": "NonDigitCharacters",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 46
+        },
+        {
+          "name": "ComputeChecksum",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 51
+        },
+        {
+          "name": "ComputeChecksum_WrongLength",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 62
+        },
+        {
+          "name": "OcrCorrection_LetterToDigit",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 67
+        },
+        {
+          "name": "OcrCorrection_BToEight",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 72
+        },
+        {
+          "name": "OcrCorrection_XAtEnd",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 77
+        },
+        {
+          "name": "ExtractBirthDate_Valid",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 84
+        },
+        {
+          "name": "ExtractBirthDate_Short",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 89
+        },
+        {
+          "name": "ExtractGender_Male",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 93
+        },
+        {
+          "name": "ExtractGender_Female",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_id_card_validator.cpp",
+          "line": 97
+        }
+      ]
+    },
+    {
+      "name": "PreprocessorTest",
+      "tests": 18,
+      "testsuite": [
+        {
+          "name": "ColorToGrayscale",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 65
+        },
+        {
+          "name": "DenoisePreservesDimensions",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 85
+        },
+        {
+          "name": "ClaheEnhancesContrast",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 106
+        },
+        {
+          "name": "DetectClearQuadrilateral",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 128
+        },
+        {
+          "name": "DetectDocument_NoDocumentInUniformImage",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 154
+        },
+        {
+          "name": "OrderCorners_TLRotation",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 168
+        },
+        {
+          "name": "OrderCorners_PreservesFourPoints",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 190
+        },
+        {
+          "name": "PerspectiveCorrection_ProducesExpectedSize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 207
+        },
+        {
+          "name": "DetectPageType_A4",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 232
+        },
+        {
+          "name": "DetectPageType_A4Landscape",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 238
+        },
+        {
+          "name": "DetectPageType_Unknown",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 245
+        },
+        {
+          "name": "DetectPageType_ZeroRatio",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 253
+        },
+        {
+          "name": "LandscapeImage_RotatedToPortrait",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 262
+        },
+        {
+          "name": "PortraitImage_NotRotated",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 284
+        },
+        {
+          "name": "AllDisabled_ReturnsInputLikeOutput",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 307
+        },
+        {
+          "name": "EnhanceOnly_SkipsGeometricCorrection",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 332
+        },
+        {
+          "name": "EmptyImage_ReturnsFalse",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 351
+        },
+        {
+          "name": "ConfigValuesAreUsed",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_preprocessing.cpp",
+          "line": 361
+        }
+      ]
+    },
+    {
+      "name": "ImageQualityTest",
+      "tests": 17,
+      "testsuite": [
+        {
+          "name": "EmptyBlackImage_Fails",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 34
+        },
+        {
+          "name": "EmptyWhiteImage_Fails",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 42
+        },
+        {
+          "name": "EmptyThreeChannelImage_Fails",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 50
+        },
+        {
+          "name": "TooSmallImage_Fails",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 61
+        },
+        {
+          "name": "ExactlyMinimumSize_Passes",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 68
+        },
+        {
+          "name": "SharpSyntheticImage_HasHighVariance",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 85
+        },
+        {
+          "name": "BlurredImage_HasLowVariance",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 98
+        },
+        {
+          "name": "BlurryImage_ReportsBlurry",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 114
+        },
+        {
+          "name": "SharpImage_ReportsNotBlurry",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 126
+        },
+        {
+          "name": "OverexposedImage_Detected",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 142
+        },
+        {
+          "name": "NormalExposure_NotOverexposed",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 152
+        },
+        {
+          "name": "ImageWithGlare_Detected",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 165
+        },
+        {
+          "name": "ImageWithoutGlare_NotDetected",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 173
+        },
+        {
+          "name": "CustomBlurThreshold",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 184
+        },
+        {
+          "name": "CustomMinResolution",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 200
+        },
+        {
+          "name": "EmptyMat_Fails",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 218
+        },
+        {
+          "name": "LaplacianVariance_AlwaysNonNegative",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_image_quality.cpp",
+          "line": 229
+        }
+      ]
+    },
+    {
+      "name": "DllApiTest",
+      "tests": 18,
+      "testsuite": [
+        {
+          "name": "InitWithNoArgs_UsesDefaults",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 44
+        },
+        {
+          "name": "InitWithConfigFile",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 50
+        },
+        {
+          "name": "DoubleInitReturnsError",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 55
+        },
+        {
+          "name": "ShutdownWithoutInitIsSafe",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 63
+        },
+        {
+          "name": "ReinitAfterShutdown",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 70
+        },
+        {
+          "name": "RecognizeFile_NotInitialized",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 84
+        },
+        {
+          "name": "RecognizeFile_NullPath",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 91
+        },
+        {
+          "name": "RecognizeFile_NullOutput",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 99
+        },
+        {
+          "name": "RecognizeFile_FileNotFound",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 106
+        },
+        {
+          "name": "RecognizeMemory_NotInitialized",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 119
+        },
+        {
+          "name": "RecognizeMemory_NullData",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 126
+        },
+        {
+          "name": "RecognizeMemory_ZeroSize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 135
+        },
+        {
+          "name": "RecognizeMemory_NegativeSize",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 145
+        },
+        {
+          "name": "FreeResult_NullIsSafe",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 159
+        },
+        {
+          "name": "GetVersion_AlwaysAvailable",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 168
+        },
+        {
+          "name": "GetLastError_BeforeInit",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 174
+        },
+        {
+          "name": "InitWithMissingConfigFile",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 184
+        },
+        {
+          "name": "RecognizeMemory_WithMockEngine_Succeeds",
+          "file": "D:\/work\/AAA_21ic_Project\/MedicalOCR\/tests\/test_dll_api.cpp",
+          "line": 193
+        }
+      ]
+    }
+  ]
+}

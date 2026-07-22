@@ -1,0 +1,17 @@
+Start testing: Jul 21 17:16 中国标准时间
+----------------------------------------------------------
+1/18 Testing: DllApiTest.InitWithNoArgs_UsesDefaults
+1/18 Test: DllApiTest.InitWithNoArgs_UsesDefaults
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.InitWithNoArgs_UsesDefaults" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR
+"DllApiTest.InitWithNoArgs_UsesDefaults" start time: Jul 21 17:16 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  37.19 sec
+----------------------------------------------------------
+Test Failed.
+"DllApiTest.InitWithNoArgs_UsesDefaults" end time: Jul 21 17:17 中国标准时间
+"DllApiTest.InitWithNoArgs_UsesDefaults" time elapsed: 00:00:37
+----------------------------------------------------------
+

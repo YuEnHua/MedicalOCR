@@ -1,0 +1,25 @@
+# Medical OCR v1.0.0
+
+Build Date: 2026-07-22
+Platform:   Windows 10/11 x64
+Compiler:   Visual Studio 2022 / MinGW GCC
+
+## Quick Start
+
+1. Place MedicalOCR.dll in your application directory
+2. Include the headers from include/medical_ocr/
+3. Link against MedicalOCR.lib (MSVC) or libMedicalOCR.dll.a (MinGW)
+4. Copy config/medical_ocr.json and customize as needed
+5. For real OCR, download models: .\scripts\download_models.ps1
+
+## Contents
+
+- bin/           DLL, import library, CLI demo
+- include/       C API headers
+- config/        Configuration files and templates
+- docs/          Documentation
+- examples/      Integration examples
+- models/        OCR model directory (download separately)
+- scripts/       Utility scripts
+- README.md      This file
+- VERSION.txt    Version information

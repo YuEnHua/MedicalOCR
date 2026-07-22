@@ -1,0 +1,77 @@
+Start testing: Jul 21 17:11 中国标准时间
+----------------------------------------------------------
+1/18 Testing: DllApiTest.InitWithNoArgs_UsesDefaults
+1/18 Test: DllApiTest.InitWithNoArgs_UsesDefaults
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.InitWithNoArgs_UsesDefaults" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR
+"DllApiTest.InitWithNoArgs_UsesDefaults" start time: Jul 21 17:11 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   5.83 sec
+----------------------------------------------------------
+Test Failed.
+"DllApiTest.InitWithNoArgs_UsesDefaults" end time: Jul 21 17:11 中国标准时间
+"DllApiTest.InitWithNoArgs_UsesDefaults" time elapsed: 00:00:05
+----------------------------------------------------------
+
+2/18 Testing: DllApiTest.InitWithConfigFile
+2/18 Test: DllApiTest.InitWithConfigFile
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.InitWithConfigFile" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR
+"DllApiTest.InitWithConfigFile" start time: Jul 21 17:11 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   2.74 sec
+----------------------------------------------------------
+Test Failed.
+"DllApiTest.InitWithConfigFile" end time: Jul 21 17:11 中国标准时间
+"DllApiTest.InitWithConfigFile" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/18 Testing: DllApiTest.DoubleInitReturnsError
+3/18 Test: DllApiTest.DoubleInitReturnsError
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.DoubleInitReturnsError" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR
+"DllApiTest.DoubleInitReturnsError" start time: Jul 21 17:11 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.74 sec
+----------------------------------------------------------
+Test Failed.
+"DllApiTest.DoubleInitReturnsError" end time: Jul 21 17:11 中国标准时间
+"DllApiTest.DoubleInitReturnsError" time elapsed: 00:00:03
+----------------------------------------------------------
+
+4/18 Testing: DllApiTest.ShutdownWithoutInitIsSafe
+4/18 Test: DllApiTest.ShutdownWithoutInitIsSafe
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.ShutdownWithoutInitIsSafe" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR
+"DllApiTest.ShutdownWithoutInitIsSafe" start time: Jul 21 17:11 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.78 sec
+----------------------------------------------------------
+Test Failed.
+"DllApiTest.ShutdownWithoutInitIsSafe" end time: Jul 21 17:11 中国标准时间
+"DllApiTest.ShutdownWithoutInitIsSafe" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/18 Testing: DllApiTest.ReinitAfterShutdown
+5/18 Test: DllApiTest.ReinitAfterShutdown
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.ReinitAfterShutdown" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR
+"DllApiTest.ReinitAfterShutdown" start time: Jul 21 17:11 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.14 sec
+----------------------------------------------------------
+Test Failed.
+"DllApiTest.ReinitAfterShutdown" end time: Jul 21 17:11 中国标准时间
+"DllApiTest.ReinitAfterShutdown" time elapsed: 00:00:03
+----------------------------------------------------------
+

@@ -1,0 +1,5 @@
+if(EXISTS "D:/work/AAA_21ic_Project/MedicalOCR/build/medical_ocr_tests[1]_tests.cmake")
+  include("D:/work/AAA_21ic_Project/MedicalOCR/build/medical_ocr_tests[1]_tests.cmake")
+else()
+  add_test(medical_ocr_tests_NOT_BUILT medical_ocr_tests_NOT_BUILT)
+endif()

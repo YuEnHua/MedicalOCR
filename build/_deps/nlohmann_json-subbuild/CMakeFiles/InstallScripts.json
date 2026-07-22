@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/nlohmann_json-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

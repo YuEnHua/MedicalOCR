@@ -1,0 +1,166 @@
+{
+  "template_id": "sample_hospital_ultrasound_v1",
+  "document_type": "ultrasound_report",
+  "description": "Sample template for a generic Chinese hospital ultrasound report",
+  "hospital_keywords": [
+    "某某市第一人民医院",
+    "某某医院"
+  ],
+  "title_keywords": [
+    "超声检查报告",
+    "超声波检查报告"
+  ],
+  "required_keywords": [
+    "姓名",
+    "性别",
+    "检查所见"
+  ],
+  "optional_keywords": [
+    "年龄",
+    "出生日期",
+    "身份证号"
+  ],
+  "fields": {
+    "name": {
+      "anchors": [
+        "姓名",
+        "患者姓名",
+        "Name"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 250,
+      "region": [0, 0, 1000, 400],
+      "data_type": "string"
+    },
+    "gender": {
+      "anchors": [
+        "性别",
+        "Gender",
+        "Sex"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 200,
+      "data_type": "gender"
+    },
+    "birth_date": {
+      "anchors": [
+        "出生日期",
+        "出生年月",
+        "BirthDate"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 250,
+      "data_type": "date"
+    },
+    "age": {
+      "anchors": [
+        "年龄",
+        "Age"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 200,
+      "data_type": "age"
+    },
+    "id_number": {
+      "anchors": [
+        "身份证号",
+        "身份证号码",
+        "ID"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 350,
+      "data_type": "id_number"
+    },
+    "department": {
+      "anchors": [
+        "科室",
+        "申请科室",
+        "Department"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 200,
+      "data_type": "string"
+    },
+    "exam_name": {
+      "anchors": [
+        "检查项目",
+        "检查名称",
+        "Exam"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 300,
+      "data_type": "string"
+    },
+    "exam_date": {
+      "anchors": [
+        "检查日期",
+        "报告日期",
+        "Date"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 250,
+      "data_type": "date"
+    },
+    "findings": {
+      "start_anchors": [
+        "检查所见",
+        "影像所见",
+        "超声所见",
+        "Findings"
+      ],
+      "end_anchors": [
+        "诊断意见",
+        "检查结论",
+        "超声提示",
+        "Impression"
+      ],
+      "extraction_type": "paragraph_between_anchors",
+      "data_type": "text"
+    },
+    "impression": {
+      "start_anchors": [
+        "诊断意见",
+        "检查结论",
+        "超声提示",
+        "Impression"
+      ],
+      "end_anchors": [
+        "报告医生",
+        "审核医生",
+        "检查医生",
+        "Doctor"
+      ],
+      "extraction_type": "paragraph_between_anchors",
+      "data_type": "text"
+    },
+    "report_doctor": {
+      "anchors": [
+        "报告医生",
+        "检查医生",
+        "Doctor"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 200,
+      "data_type": "string"
+    },
+    "review_doctor": {
+      "anchors": [
+        "审核医生",
+        "Review"
+      ],
+      "search_direction": "right",
+      "same_line_tolerance": 20,
+      "max_distance": 200,
+      "data_type": "string"
+    }
+  }
+}

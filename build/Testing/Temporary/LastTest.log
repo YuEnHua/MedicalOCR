@@ -1,0 +1,1434 @@
+Start testing: Jul 22 09:57 中国标准时间
+----------------------------------------------------------
+1/53 Testing: PreprocessorTest.ColorToGrayscale
+1/53 Test: PreprocessorTest.ColorToGrayscale
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.ColorToGrayscale" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.ColorToGrayscale" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.ColorToGrayscale
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.ColorToGrayscale
+[       OK ] PreprocessorTest.ColorToGrayscale (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.ColorToGrayscale" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.ColorToGrayscale" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/53 Testing: PreprocessorTest.DenoisePreservesDimensions
+2/53 Test: PreprocessorTest.DenoisePreservesDimensions
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DenoisePreservesDimensions" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DenoisePreservesDimensions" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DenoisePreservesDimensions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DenoisePreservesDimensions
+[       OK ] PreprocessorTest.DenoisePreservesDimensions (2 ms)
+[----------] 1 test from PreprocessorTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DenoisePreservesDimensions" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DenoisePreservesDimensions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/53 Testing: PreprocessorTest.ClaheEnhancesContrast
+3/53 Test: PreprocessorTest.ClaheEnhancesContrast
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.ClaheEnhancesContrast" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.ClaheEnhancesContrast" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.ClaheEnhancesContrast
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.ClaheEnhancesContrast
+[       OK ] PreprocessorTest.ClaheEnhancesContrast (2 ms)
+[----------] 1 test from PreprocessorTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.ClaheEnhancesContrast" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.ClaheEnhancesContrast" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/53 Testing: PreprocessorTest.DetectClearQuadrilateral
+4/53 Test: PreprocessorTest.DetectClearQuadrilateral
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DetectClearQuadrilateral" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DetectClearQuadrilateral" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DetectClearQuadrilateral
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DetectClearQuadrilateral
+[       OK ] PreprocessorTest.DetectClearQuadrilateral (6 ms)
+[----------] 1 test from PreprocessorTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DetectClearQuadrilateral" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DetectClearQuadrilateral" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/53 Testing: PreprocessorTest.DetectDocument_NoDocumentInUniformImage
+5/53 Test: PreprocessorTest.DetectDocument_NoDocumentInUniformImage
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DetectDocument_NoDocumentInUniformImage" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DetectDocument_NoDocumentInUniformImage" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DetectDocument_NoDocumentInUniformImage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DetectDocument_NoDocumentInUniformImage
+[       OK ] PreprocessorTest.DetectDocument_NoDocumentInUniformImage (3 ms)
+[----------] 1 test from PreprocessorTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DetectDocument_NoDocumentInUniformImage" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DetectDocument_NoDocumentInUniformImage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/53 Testing: PreprocessorTest.OrderCorners_TLRotation
+6/53 Test: PreprocessorTest.OrderCorners_TLRotation
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.OrderCorners_TLRotation" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.OrderCorners_TLRotation" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.OrderCorners_TLRotation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.OrderCorners_TLRotation
+[       OK ] PreprocessorTest.OrderCorners_TLRotation (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.OrderCorners_TLRotation" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.OrderCorners_TLRotation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/53 Testing: PreprocessorTest.OrderCorners_PreservesFourPoints
+7/53 Test: PreprocessorTest.OrderCorners_PreservesFourPoints
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.OrderCorners_PreservesFourPoints" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.OrderCorners_PreservesFourPoints" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.OrderCorners_PreservesFourPoints
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.OrderCorners_PreservesFourPoints
+[       OK ] PreprocessorTest.OrderCorners_PreservesFourPoints (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.OrderCorners_PreservesFourPoints" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.OrderCorners_PreservesFourPoints" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/53 Testing: PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize
+8/53 Test: PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize
+[       OK ] PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize (3 ms)
+[----------] 1 test from PreprocessorTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.PerspectiveCorrection_ProducesExpectedSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/53 Testing: PreprocessorTest.DetectPageType_A4
+9/53 Test: PreprocessorTest.DetectPageType_A4
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DetectPageType_A4" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DetectPageType_A4" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DetectPageType_A4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DetectPageType_A4
+[       OK ] PreprocessorTest.DetectPageType_A4 (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DetectPageType_A4" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DetectPageType_A4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/53 Testing: PreprocessorTest.DetectPageType_A4Landscape
+10/53 Test: PreprocessorTest.DetectPageType_A4Landscape
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DetectPageType_A4Landscape" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DetectPageType_A4Landscape" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DetectPageType_A4Landscape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DetectPageType_A4Landscape
+[       OK ] PreprocessorTest.DetectPageType_A4Landscape (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DetectPageType_A4Landscape" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DetectPageType_A4Landscape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/53 Testing: PreprocessorTest.DetectPageType_Unknown
+11/53 Test: PreprocessorTest.DetectPageType_Unknown
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DetectPageType_Unknown" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DetectPageType_Unknown" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DetectPageType_Unknown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DetectPageType_Unknown
+[       OK ] PreprocessorTest.DetectPageType_Unknown (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DetectPageType_Unknown" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DetectPageType_Unknown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/53 Testing: PreprocessorTest.DetectPageType_ZeroRatio
+12/53 Test: PreprocessorTest.DetectPageType_ZeroRatio
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.DetectPageType_ZeroRatio" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.DetectPageType_ZeroRatio" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.DetectPageType_ZeroRatio
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.DetectPageType_ZeroRatio
+[       OK ] PreprocessorTest.DetectPageType_ZeroRatio (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.DetectPageType_ZeroRatio" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.DetectPageType_ZeroRatio" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/53 Testing: PreprocessorTest.LandscapeImage_RotatedToPortrait
+13/53 Test: PreprocessorTest.LandscapeImage_RotatedToPortrait
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.LandscapeImage_RotatedToPortrait" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.LandscapeImage_RotatedToPortrait" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.LandscapeImage_RotatedToPortrait
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.LandscapeImage_RotatedToPortrait
+[       OK ] PreprocessorTest.LandscapeImage_RotatedToPortrait (2 ms)
+[----------] 1 test from PreprocessorTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.LandscapeImage_RotatedToPortrait" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.LandscapeImage_RotatedToPortrait" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/53 Testing: PreprocessorTest.PortraitImage_NotRotated
+14/53 Test: PreprocessorTest.PortraitImage_NotRotated
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.PortraitImage_NotRotated" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.PortraitImage_NotRotated" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.PortraitImage_NotRotated
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.PortraitImage_NotRotated
+[       OK ] PreprocessorTest.PortraitImage_NotRotated (2 ms)
+[----------] 1 test from PreprocessorTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.PortraitImage_NotRotated" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.PortraitImage_NotRotated" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/53 Testing: PreprocessorTest.AllDisabled_ReturnsInputLikeOutput
+15/53 Test: PreprocessorTest.AllDisabled_ReturnsInputLikeOutput
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.AllDisabled_ReturnsInputLikeOutput" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.AllDisabled_ReturnsInputLikeOutput" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.AllDisabled_ReturnsInputLikeOutput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.AllDisabled_ReturnsInputLikeOutput
+[       OK ] PreprocessorTest.AllDisabled_ReturnsInputLikeOutput (2 ms)
+[----------] 1 test from PreprocessorTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.AllDisabled_ReturnsInputLikeOutput" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.AllDisabled_ReturnsInputLikeOutput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/53 Testing: PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection
+16/53 Test: PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection
+[       OK ] PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection (3 ms)
+[----------] 1 test from PreprocessorTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.EnhanceOnly_SkipsGeometricCorrection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/53 Testing: PreprocessorTest.EmptyImage_ReturnsFalse
+17/53 Test: PreprocessorTest.EmptyImage_ReturnsFalse
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.EmptyImage_ReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.EmptyImage_ReturnsFalse" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.EmptyImage_ReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.EmptyImage_ReturnsFalse
+[       OK ] PreprocessorTest.EmptyImage_ReturnsFalse (0 ms)
+[----------] 1 test from PreprocessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.EmptyImage_ReturnsFalse" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.EmptyImage_ReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/53 Testing: PreprocessorTest.ConfigValuesAreUsed
+18/53 Test: PreprocessorTest.ConfigValuesAreUsed
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=PreprocessorTest.ConfigValuesAreUsed" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"PreprocessorTest.ConfigValuesAreUsed" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PreprocessorTest.ConfigValuesAreUsed
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PreprocessorTest
+[ RUN      ] PreprocessorTest.ConfigValuesAreUsed
+[       OK ] PreprocessorTest.ConfigValuesAreUsed (2 ms)
+[----------] 1 test from PreprocessorTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"PreprocessorTest.ConfigValuesAreUsed" end time: Jul 22 09:57 中国标准时间
+"PreprocessorTest.ConfigValuesAreUsed" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/53 Testing: ImageQualityTest.EmptyBlackImage_Fails
+19/53 Test: ImageQualityTest.EmptyBlackImage_Fails
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.EmptyBlackImage_Fails" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.EmptyBlackImage_Fails" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.EmptyBlackImage_Fails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.EmptyBlackImage_Fails
+[       OK ] ImageQualityTest.EmptyBlackImage_Fails (0 ms)
+[----------] 1 test from ImageQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.EmptyBlackImage_Fails" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.EmptyBlackImage_Fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/53 Testing: ImageQualityTest.EmptyWhiteImage_Fails
+20/53 Test: ImageQualityTest.EmptyWhiteImage_Fails
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.EmptyWhiteImage_Fails" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.EmptyWhiteImage_Fails" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.EmptyWhiteImage_Fails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.EmptyWhiteImage_Fails
+[       OK ] ImageQualityTest.EmptyWhiteImage_Fails (0 ms)
+[----------] 1 test from ImageQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.EmptyWhiteImage_Fails" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.EmptyWhiteImage_Fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/53 Testing: ImageQualityTest.EmptyThreeChannelImage_Fails
+21/53 Test: ImageQualityTest.EmptyThreeChannelImage_Fails
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.EmptyThreeChannelImage_Fails" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.EmptyThreeChannelImage_Fails" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.EmptyThreeChannelImage_Fails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.EmptyThreeChannelImage_Fails
+[       OK ] ImageQualityTest.EmptyThreeChannelImage_Fails (2 ms)
+[----------] 1 test from ImageQualityTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.EmptyThreeChannelImage_Fails" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.EmptyThreeChannelImage_Fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/53 Testing: ImageQualityTest.TooSmallImage_Fails
+22/53 Test: ImageQualityTest.TooSmallImage_Fails
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.TooSmallImage_Fails" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.TooSmallImage_Fails" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.TooSmallImage_Fails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.TooSmallImage_Fails
+[       OK ] ImageQualityTest.TooSmallImage_Fails (0 ms)
+[----------] 1 test from ImageQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.TooSmallImage_Fails" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.TooSmallImage_Fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/53 Testing: ImageQualityTest.ExactlyMinimumSize_Passes
+23/53 Test: ImageQualityTest.ExactlyMinimumSize_Passes
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.ExactlyMinimumSize_Passes" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.ExactlyMinimumSize_Passes" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.ExactlyMinimumSize_Passes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.ExactlyMinimumSize_Passes
+[       OK ] ImageQualityTest.ExactlyMinimumSize_Passes (3 ms)
+[----------] 1 test from ImageQualityTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.ExactlyMinimumSize_Passes" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.ExactlyMinimumSize_Passes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/53 Testing: ImageQualityTest.SharpSyntheticImage_HasHighVariance
+24/53 Test: ImageQualityTest.SharpSyntheticImage_HasHighVariance
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.SharpSyntheticImage_HasHighVariance" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.SharpSyntheticImage_HasHighVariance" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.SharpSyntheticImage_HasHighVariance
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.SharpSyntheticImage_HasHighVariance
+[       OK ] ImageQualityTest.SharpSyntheticImage_HasHighVariance (4 ms)
+[----------] 1 test from ImageQualityTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.SharpSyntheticImage_HasHighVariance" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.SharpSyntheticImage_HasHighVariance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/53 Testing: ImageQualityTest.BlurredImage_HasLowVariance
+25/53 Test: ImageQualityTest.BlurredImage_HasLowVariance
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.BlurredImage_HasLowVariance" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.BlurredImage_HasLowVariance" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.BlurredImage_HasLowVariance
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.BlurredImage_HasLowVariance
+[       OK ] ImageQualityTest.BlurredImage_HasLowVariance (7 ms)
+[----------] 1 test from ImageQualityTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.BlurredImage_HasLowVariance" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.BlurredImage_HasLowVariance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/53 Testing: ImageQualityTest.BlurryImage_ReportsBlurry
+26/53 Test: ImageQualityTest.BlurryImage_ReportsBlurry
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.BlurryImage_ReportsBlurry" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.BlurryImage_ReportsBlurry" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.BlurryImage_ReportsBlurry
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.BlurryImage_ReportsBlurry
+[       OK ] ImageQualityTest.BlurryImage_ReportsBlurry (16 ms)
+[----------] 1 test from ImageQualityTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (16 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.BlurryImage_ReportsBlurry" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.BlurryImage_ReportsBlurry" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/53 Testing: ImageQualityTest.SharpImage_ReportsNotBlurry
+27/53 Test: ImageQualityTest.SharpImage_ReportsNotBlurry
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.SharpImage_ReportsNotBlurry" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.SharpImage_ReportsNotBlurry" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.SharpImage_ReportsNotBlurry
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.SharpImage_ReportsNotBlurry
+[       OK ] ImageQualityTest.SharpImage_ReportsNotBlurry (11 ms)
+[----------] 1 test from ImageQualityTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.SharpImage_ReportsNotBlurry" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.SharpImage_ReportsNotBlurry" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/53 Testing: ImageQualityTest.OverexposedImage_Detected
+28/53 Test: ImageQualityTest.OverexposedImage_Detected
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.OverexposedImage_Detected" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.OverexposedImage_Detected" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.OverexposedImage_Detected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.OverexposedImage_Detected
+[       OK ] ImageQualityTest.OverexposedImage_Detected (0 ms)
+[----------] 1 test from ImageQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.OverexposedImage_Detected" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.OverexposedImage_Detected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/53 Testing: ImageQualityTest.NormalExposure_NotOverexposed
+29/53 Test: ImageQualityTest.NormalExposure_NotOverexposed
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.NormalExposure_NotOverexposed" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.NormalExposure_NotOverexposed" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.NormalExposure_NotOverexposed
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.NormalExposure_NotOverexposed
+[       OK ] ImageQualityTest.NormalExposure_NotOverexposed (1 ms)
+[----------] 1 test from ImageQualityTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.NormalExposure_NotOverexposed" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.NormalExposure_NotOverexposed" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/53 Testing: ImageQualityTest.ImageWithGlare_Detected
+30/53 Test: ImageQualityTest.ImageWithGlare_Detected
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.ImageWithGlare_Detected" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.ImageWithGlare_Detected" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.ImageWithGlare_Detected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.ImageWithGlare_Detected
+[       OK ] ImageQualityTest.ImageWithGlare_Detected (3 ms)
+[----------] 1 test from ImageQualityTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.ImageWithGlare_Detected" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.ImageWithGlare_Detected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/53 Testing: ImageQualityTest.ImageWithoutGlare_NotDetected
+31/53 Test: ImageQualityTest.ImageWithoutGlare_NotDetected
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.ImageWithoutGlare_NotDetected" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.ImageWithoutGlare_NotDetected" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.ImageWithoutGlare_NotDetected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.ImageWithoutGlare_NotDetected
+[       OK ] ImageQualityTest.ImageWithoutGlare_NotDetected (3 ms)
+[----------] 1 test from ImageQualityTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.ImageWithoutGlare_NotDetected" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.ImageWithoutGlare_NotDetected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/53 Testing: ImageQualityTest.CustomBlurThreshold
+32/53 Test: ImageQualityTest.CustomBlurThreshold
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.CustomBlurThreshold" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.CustomBlurThreshold" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.CustomBlurThreshold
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.CustomBlurThreshold
+[       OK ] ImageQualityTest.CustomBlurThreshold (9 ms)
+[----------] 1 test from ImageQualityTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.CustomBlurThreshold" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.CustomBlurThreshold" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/53 Testing: ImageQualityTest.CustomMinResolution
+33/53 Test: ImageQualityTest.CustomMinResolution
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.CustomMinResolution" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.CustomMinResolution" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.CustomMinResolution
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.CustomMinResolution
+[       OK ] ImageQualityTest.CustomMinResolution (17 ms)
+[----------] 1 test from ImageQualityTest (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.CustomMinResolution" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.CustomMinResolution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/53 Testing: ImageQualityTest.EmptyMat_Fails
+34/53 Test: ImageQualityTest.EmptyMat_Fails
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.EmptyMat_Fails" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.EmptyMat_Fails" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.EmptyMat_Fails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.EmptyMat_Fails
+[       OK ] ImageQualityTest.EmptyMat_Fails (0 ms)
+[----------] 1 test from ImageQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.EmptyMat_Fails" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.EmptyMat_Fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/53 Testing: ImageQualityTest.LaplacianVariance_AlwaysNonNegative
+35/53 Test: ImageQualityTest.LaplacianVariance_AlwaysNonNegative
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=ImageQualityTest.LaplacianVariance_AlwaysNonNegative" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"ImageQualityTest.LaplacianVariance_AlwaysNonNegative" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ImageQualityTest.LaplacianVariance_AlwaysNonNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageQualityTest
+[ RUN      ] ImageQualityTest.LaplacianVariance_AlwaysNonNegative
+[       OK ] ImageQualityTest.LaplacianVariance_AlwaysNonNegative (1 ms)
+[----------] 1 test from ImageQualityTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ImageQualityTest.LaplacianVariance_AlwaysNonNegative" end time: Jul 22 09:57 中国标准时间
+"ImageQualityTest.LaplacianVariance_AlwaysNonNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/53 Testing: DllApiTest.InitWithNoArgs_UsesDefaults
+36/53 Test: DllApiTest.InitWithNoArgs_UsesDefaults
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.InitWithNoArgs_UsesDefaults" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.InitWithNoArgs_UsesDefaults" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.InitWithNoArgs_UsesDefaults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.InitWithNoArgs_UsesDefaults
+[       OK ] DllApiTest.InitWithNoArgs_UsesDefaults (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.InitWithNoArgs_UsesDefaults" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.InitWithNoArgs_UsesDefaults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/53 Testing: DllApiTest.InitWithConfigFile
+37/53 Test: DllApiTest.InitWithConfigFile
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.InitWithConfigFile" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.InitWithConfigFile" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.InitWithConfigFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.InitWithConfigFile
+[       OK ] DllApiTest.InitWithConfigFile (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.InitWithConfigFile" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.InitWithConfigFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/53 Testing: DllApiTest.DoubleInitReturnsError
+38/53 Test: DllApiTest.DoubleInitReturnsError
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.DoubleInitReturnsError" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.DoubleInitReturnsError" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.DoubleInitReturnsError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.DoubleInitReturnsError
+[       OK ] DllApiTest.DoubleInitReturnsError (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.DoubleInitReturnsError" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.DoubleInitReturnsError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/53 Testing: DllApiTest.ShutdownWithoutInitIsSafe
+39/53 Test: DllApiTest.ShutdownWithoutInitIsSafe
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.ShutdownWithoutInitIsSafe" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.ShutdownWithoutInitIsSafe" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.ShutdownWithoutInitIsSafe
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.ShutdownWithoutInitIsSafe
+[       OK ] DllApiTest.ShutdownWithoutInitIsSafe (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.ShutdownWithoutInitIsSafe" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.ShutdownWithoutInitIsSafe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/53 Testing: DllApiTest.ReinitAfterShutdown
+40/53 Test: DllApiTest.ReinitAfterShutdown
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.ReinitAfterShutdown" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.ReinitAfterShutdown" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.ReinitAfterShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.ReinitAfterShutdown
+[       OK ] DllApiTest.ReinitAfterShutdown (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.ReinitAfterShutdown" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.ReinitAfterShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/53 Testing: DllApiTest.RecognizeFile_NotInitialized
+41/53 Test: DllApiTest.RecognizeFile_NotInitialized
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeFile_NotInitialized" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeFile_NotInitialized" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeFile_NotInitialized
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeFile_NotInitialized
+[       OK ] DllApiTest.RecognizeFile_NotInitialized (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeFile_NotInitialized" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeFile_NotInitialized" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/53 Testing: DllApiTest.RecognizeFile_NullPath
+42/53 Test: DllApiTest.RecognizeFile_NullPath
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeFile_NullPath" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeFile_NullPath" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeFile_NullPath
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeFile_NullPath
+[       OK ] DllApiTest.RecognizeFile_NullPath (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeFile_NullPath" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeFile_NullPath" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/53 Testing: DllApiTest.RecognizeFile_NullOutput
+43/53 Test: DllApiTest.RecognizeFile_NullOutput
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeFile_NullOutput" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeFile_NullOutput" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeFile_NullOutput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeFile_NullOutput
+[       OK ] DllApiTest.RecognizeFile_NullOutput (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeFile_NullOutput" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeFile_NullOutput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/53 Testing: DllApiTest.RecognizeFile_FileNotFound
+44/53 Test: DllApiTest.RecognizeFile_FileNotFound
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeFile_FileNotFound" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeFile_FileNotFound" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeFile_FileNotFound
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeFile_FileNotFound
+[       OK ] DllApiTest.RecognizeFile_FileNotFound (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeFile_FileNotFound" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeFile_FileNotFound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/53 Testing: DllApiTest.RecognizeMemory_NotInitialized
+45/53 Test: DllApiTest.RecognizeMemory_NotInitialized
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeMemory_NotInitialized" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeMemory_NotInitialized" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeMemory_NotInitialized
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeMemory_NotInitialized
+[       OK ] DllApiTest.RecognizeMemory_NotInitialized (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeMemory_NotInitialized" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeMemory_NotInitialized" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/53 Testing: DllApiTest.RecognizeMemory_NullData
+46/53 Test: DllApiTest.RecognizeMemory_NullData
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeMemory_NullData" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeMemory_NullData" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeMemory_NullData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeMemory_NullData
+[       OK ] DllApiTest.RecognizeMemory_NullData (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeMemory_NullData" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeMemory_NullData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/53 Testing: DllApiTest.RecognizeMemory_ZeroSize
+47/53 Test: DllApiTest.RecognizeMemory_ZeroSize
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeMemory_ZeroSize" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeMemory_ZeroSize" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeMemory_ZeroSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeMemory_ZeroSize
+[       OK ] DllApiTest.RecognizeMemory_ZeroSize (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeMemory_ZeroSize" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeMemory_ZeroSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/53 Testing: DllApiTest.RecognizeMemory_NegativeSize
+48/53 Test: DllApiTest.RecognizeMemory_NegativeSize
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeMemory_NegativeSize" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeMemory_NegativeSize" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeMemory_NegativeSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeMemory_NegativeSize
+[       OK ] DllApiTest.RecognizeMemory_NegativeSize (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeMemory_NegativeSize" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeMemory_NegativeSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/53 Testing: DllApiTest.FreeResult_NullIsSafe
+49/53 Test: DllApiTest.FreeResult_NullIsSafe
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.FreeResult_NullIsSafe" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.FreeResult_NullIsSafe" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.FreeResult_NullIsSafe
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.FreeResult_NullIsSafe
+[       OK ] DllApiTest.FreeResult_NullIsSafe (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.FreeResult_NullIsSafe" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.FreeResult_NullIsSafe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/53 Testing: DllApiTest.GetVersion_AlwaysAvailable
+50/53 Test: DllApiTest.GetVersion_AlwaysAvailable
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.GetVersion_AlwaysAvailable" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.GetVersion_AlwaysAvailable" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.GetVersion_AlwaysAvailable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.GetVersion_AlwaysAvailable
+[       OK ] DllApiTest.GetVersion_AlwaysAvailable (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.GetVersion_AlwaysAvailable" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.GetVersion_AlwaysAvailable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/53 Testing: DllApiTest.GetLastError_BeforeInit
+51/53 Test: DllApiTest.GetLastError_BeforeInit
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.GetLastError_BeforeInit" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.GetLastError_BeforeInit" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.GetLastError_BeforeInit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.GetLastError_BeforeInit
+[       OK ] DllApiTest.GetLastError_BeforeInit (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.GetLastError_BeforeInit" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.GetLastError_BeforeInit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/53 Testing: DllApiTest.InitWithMissingConfigFile
+52/53 Test: DllApiTest.InitWithMissingConfigFile
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.InitWithMissingConfigFile" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.InitWithMissingConfigFile" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.InitWithMissingConfigFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.InitWithMissingConfigFile
+[       OK ] DllApiTest.InitWithMissingConfigFile (0 ms)
+[----------] 1 test from DllApiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.InitWithMissingConfigFile" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.InitWithMissingConfigFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/53 Testing: DllApiTest.RecognizeMemory_WithMockEngine_Succeeds
+53/53 Test: DllApiTest.RecognizeMemory_WithMockEngine_Succeeds
+Command: "D:/work/AAA_21ic_Project/MedicalOCR/build/bin/medical_ocr_tests.exe" "--gtest_filter=DllApiTest.RecognizeMemory_WithMockEngine_Succeeds" "--gtest_also_run_disabled_tests"
+Directory: D:/work/AAA_21ic_Project/MedicalOCR/build/bin
+"DllApiTest.RecognizeMemory_WithMockEngine_Succeeds" start time: Jul 22 09:57 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:/work/AAA_21ic_Project/MedicalOCR/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DllApiTest.RecognizeMemory_WithMockEngine_Succeeds
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DllApiTest
+[ RUN      ] DllApiTest.RecognizeMemory_WithMockEngine_Succeeds
+[       OK ] DllApiTest.RecognizeMemory_WithMockEngine_Succeeds (76 ms)
+[----------] 1 test from DllApiTest (76 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (76 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"DllApiTest.RecognizeMemory_WithMockEngine_Succeeds" end time: Jul 22 09:57 中国标准时间
+"DllApiTest.RecognizeMemory_WithMockEngine_Succeeds" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 22 09:57 中国标准时间
