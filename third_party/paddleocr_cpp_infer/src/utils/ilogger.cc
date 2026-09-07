@@ -207,7 +207,7 @@ time_t last_modify(const string &file) {
 #if defined(U_OS_LINUX)
   struct stat st;
   stat(file.c_str(), &st);
-  return st.st_mtim.tv_sec;
+  return st.st_mtime;
 #elif defined(U_OS_WINDOWS)
   INFOW("LastModify has not support on windows os");
   return 0;
