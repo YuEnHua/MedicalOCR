@@ -85,12 +85,19 @@ function(medical_ocr_link_paddle_vendor target_name)
 
     target_include_directories(${target_name} PRIVATE
         ${PADDLEOCR_CPP_INFER_ROOT}
-        ${PADDLEOCR_CPP_INFER_ROOT}/include_win
         ${POLYCLIPPING_INCLUDE_DIR}
         ${PADDLE_INFERENCE_INCLUDE_DIR}
         ${PADDLE_INFERENCE_THIRD_PARTY_INCLUDE_DIRS}
         ${OpenCV_INCLUDE_DIRS}
     )
+    # Windows-only POSIX dirent shim. On macOS/Linux the vendor copy of
+    # dirent.h sits at the cpp_infer root and would shadow libc <dirent.h>,
+    # then fail with "windows.h file not found".
+    if(WIN32)
+        target_include_directories(${target_name} PRIVATE
+            ${PADDLEOCR_CPP_INFER_ROOT}/include_win
+        )
+    endif()
 
     target_compile_definitions(${target_name} PRIVATE
         MEDICAL_OCR_HAS_PADDLE
