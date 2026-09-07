@@ -168,6 +168,13 @@ function(medical_ocr_copy_paddle_runtime target_name)
     if(APPLE)
         file(GLOB _paddle_dylibs "${_paddle_root}/paddle/lib/*.dylib")
         foreach(_lib ${_paddle_dylibs})
+            if(NOT EXISTS "${_lib}")
+                continue()
+            endif()
+            get_filename_component(_bn "${_lib}" NAME)
+            if(_bn MATCHES "gfortran|quadmath|lapack-netlib")
+                continue()
+            endif()
             add_custom_command(TARGET ${target_name} POST_BUILD
                 COMMAND ${CMAKE_COMMAND} -E copy_if_different
                     "${_lib}" $<TARGET_FILE_DIR:${target_name}>
@@ -178,6 +185,13 @@ function(medical_ocr_copy_paddle_runtime target_name)
             get_filename_component(_ocv_libdir "${OpenCV_DIR}/../.." ABSOLUTE)
             file(GLOB _opencv_dylibs "${_ocv_libdir}/*.dylib")
             foreach(_lib ${_opencv_dylibs})
+                if(NOT EXISTS "${_lib}")
+                    continue()
+                endif()
+                get_filename_component(_bn "${_lib}" NAME)
+                if(_bn MATCHES "gfortran|quadmath|lapack-netlib")
+                    continue()
+                endif()
                 add_custom_command(TARGET ${target_name} POST_BUILD
                     COMMAND ${CMAKE_COMMAND} -E copy_if_different
                         "${_lib}" $<TARGET_FILE_DIR:${target_name}>
