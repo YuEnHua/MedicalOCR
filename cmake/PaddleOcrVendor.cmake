@@ -166,7 +166,9 @@ function(medical_ocr_copy_paddle_runtime target_name)
     endif()
 
     if(APPLE)
-        file(GLOB _paddle_dylibs "${_paddle_root}/paddle/lib/*.dylib")
+        file(GLOB _paddle_dylibs
+            "${_paddle_root}/paddle/lib/*.dylib"
+            "${_paddle_root}/third_party/install/*/lib/*.dylib")
         foreach(_lib ${_paddle_dylibs})
             if(NOT EXISTS "${_lib}")
                 continue()
@@ -181,24 +183,6 @@ function(medical_ocr_copy_paddle_runtime target_name)
                 COMMENT "Copy Paddle dylib ${_lib}"
             )
         endforeach()
-        if(OpenCV_DIR)
-            get_filename_component(_ocv_libdir "${OpenCV_DIR}/../.." ABSOLUTE)
-            file(GLOB _opencv_dylibs "${_ocv_libdir}/*.dylib")
-            foreach(_lib ${_opencv_dylibs})
-                if(NOT EXISTS "${_lib}")
-                    continue()
-                endif()
-                get_filename_component(_bn "${_lib}" NAME)
-                if(_bn MATCHES "gfortran|quadmath|lapack-netlib")
-                    continue()
-                endif()
-                add_custom_command(TARGET ${target_name} POST_BUILD
-                    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-                        "${_lib}" $<TARGET_FILE_DIR:${target_name}>
-                    COMMENT "Copy OpenCV dylib ${_lib}"
-                )
-            endforeach()
-        endif()
         add_custom_command(TARGET ${target_name} POST_BUILD
             COMMAND ${CMAKE_COMMAND} -E copy_if_different
                 $<TARGET_FILE:polyclipping> $<TARGET_FILE_DIR:${target_name}>
