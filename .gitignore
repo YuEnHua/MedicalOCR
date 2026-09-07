@@ -1,0 +1,10 @@
+build/
+build-*/
+.vs/
+.cursor/
+*.user
+apps/**/bin/
+apps/**/obj/
+models/PP-OCRv6_small_det/
+models/PP-OCRv6_small_rec/
+third_party/paddle_inference*/
